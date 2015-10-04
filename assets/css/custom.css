@@ -1,0 +1,63 @@
+/**
+ * Copyright (C) 2015  Darko Gjorgjijoski
+ * http://darkog.com/
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ */
+
+.remodal-bg.with-red-theme.remodal-is-opening,
+.remodal-bg.with-red-theme.remodal-is-opened {
+    filter: none;
+}
+.remodal-overlay.with-red-theme {
+    background-color: #f44336;
+}
+.remodal.with-red-theme {
+    background: #fff;
+}
+
+.remodal.remodal-is-initialized.remodal-is-opened > p {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.remodal-confirm, .remodal-cancel {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.remodal.remodal-is-initialized.remodal-is-opened > h1 {
+    font-size: 25px;
+}
+
+.dgrveemail {
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+    width: 70% !important;
+}
+
+.dgrvestatus {
+    text-align: center;
+    color: green;
+    margin-bottom: 15px !important;
+}
+
+.error{
+    border: 2px solid red;
+    color: red;
+}
+
+.success{
+    border: 2px solid gray;
+}
+
